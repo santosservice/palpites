@@ -1,0 +1,63 @@
+html {
+  background-color: aqua;
+  border: 5px solid red;
+  width: 95vw;
+}
+body {
+    width: 97%;
+    background-color: beige;
+    height: 96%;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bch{
+    width: 96%; 
+    height: 98px; 
+    border: 2px solid black;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+          
+}
+p{ margin: 0;font-weight: bolder; text-align:center ;}
+.container{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  margin: 0 auto;
+  gap: 5px;
+  
+  
+}
+
+
+.bch1{background-image: url(img/bichos/avestruz.png); }
+.bch2{background-image: url(img/bichos/aguia.png); }
+.bch3{background-image: url(img/bichos/Burro.png); }
+.bch4{background-image: url(img/bichos/Borboleta.png); }
+.bch5{background-image: url(img/bichos/Cachorro2.png); }
+.bch6{background-image: url(img/bichos/cabra.png);  }
+.bch7{background-image: url(img/bichos/carneiro2.png); }
+.bch8{background-image: url(img/bichos/camelo.png); }
+.bch9{background-image: url(img/bichos/cobra.png); }
+.bch10{background-image: url(img/bichos/coelho.png); }
+.bch11{background-image: url(img/bichos/cavalo.png); }
+.bch12{background-image: url(img/bichos/Elefante3.png); }
+.bch13{background-image: url(img/bichos/galoColorido.png); }
+.bch14{background-image: url(img/bichos/gato.png); }
+.bch15{background-image: url(img/bichos/Jacare.png); }
+.bch16{background-image: url(img/bichos/leao.png); }
+.bch17{background-image: url(img/bichos/Macaco.png); }
+.bch18{background-image: url(img/bichos/Porco2.png); }
+.bch19{background-image: url(img/bichos/pavao.png); }
+.bch20{background-image: url(img/bichos/peru.png); }
+.bch21{background-image: url(img/bichos/touro.png); }
+.bch22{background-image: url(img/bichos/tigre3.png); }
+.bch23{background-image: url(img/bichos/urso.png); }
+.bch24{background-image: url(img/bichos/veado.png); }
+.bch25{background-image: url(img/bichos/vaca2.png); }
+.bch26{grid-column: 3/4; grid-row: 10; }
+.bch27{width: auto; height: auto; grid-column: 2/5; grid-row: 2/10; background-color: blueviolet;}
